@@ -1,12 +1,8 @@
 #include <stdio.h>
 int main()
 {
-    char s[1000]="qwerty";
+    char s[1000]="hackers";
     int i;
-
-    
-
-
     for(i = 0; s[i] != '\0'; ++i);
 
     printf("Length of string: %d", i);
